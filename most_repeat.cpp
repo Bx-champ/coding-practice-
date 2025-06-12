@@ -26,6 +26,10 @@ int main(){
             w="";
         }
     }
+    if (max==1){
+        cout<<"non repeating";
+        return 0;
+    }
     cout<<max;
     cout<<result;
 }
